@@ -1,3 +1,7 @@
 .big-picture {
   background-image: url("img/main-page-big-picture-background@1x.jpg");
 }
+
+.big-picture--medium {
+  min-height: 301px;
+}
