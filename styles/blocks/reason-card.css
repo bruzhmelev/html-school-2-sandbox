@@ -1,0 +1,26 @@
+.reason-card__image-container {
+    background-color: #fff;
+    width: 320px;
+    height: 260px;
+    overflow: hidden;
+}
+
+.reason-card__image {
+    /* height: 260px; */
+}
+
+.reason-card__description {
+    background-color: #81B3D2;
+    color: #fff;
+}
+
+.reason-card__description--light {
+    background-color: #EEEEEE;
+    color: #000;
+}
+
+.reason-card__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+}

@@ -1,7 +1,27 @@
-.big-picture {
-  background-image: url("img/main-page-big-picture-background@1x.jpg");
-}
+/* global styles */
+@import "./styles/reset.css";
+@import "./styles/font.css";
+@import "./styles/body.css";
 
-.big-picture--medium {
-  min-height: 301px;
-}
+/* mixins (button, checkbox, radio)*/
+@import "./styles/mixins/button.css";
+@import "./styles/mixins/h3.css";
+
+/* blocks styles */
+@import "./styles/blocks/poster-big.css";
+@import "./styles/blocks/poster-small.css";
+@import "./styles/blocks/booking.css";
+@import "./styles/blocks/content.css";
+@import "./styles/blocks/developed-by.css";
+@import "./styles/blocks/footer.css";
+@import "./styles/blocks/hashtag.css";
+@import "./styles/blocks/header.css";
+@import "./styles/blocks/logo.css";
+@import "./styles/blocks/map.css";
+@import "./styles/blocks/menu.css";
+@import "./styles/blocks/page-title.css";
+@import "./styles/blocks/reason-card.css";
+@import "./styles/blocks/reason-point.css";
+@import "./styles/blocks/reasons.css";
+@import "./styles/blocks/social-link.css";
+@import "./styles/blocks/social.css";

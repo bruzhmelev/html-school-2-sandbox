@@ -1,0 +1,18 @@
+.booking__title {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.booking__description {
+    line-height: 24px;
+}
+
+.booking__button {
+    display: block;
+    color: #fff;
+    background-color: #81B3D2;
+    padding: 15px 48px;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+}

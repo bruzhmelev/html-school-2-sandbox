@@ -1,0 +1,6 @@
+.map__image-container {
+    width: 320px;
+    height: 350px;
+    overflow: hidden;
+    background-color: #f4f3ef;
+}

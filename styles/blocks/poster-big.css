@@ -1,0 +1,13 @@
+.poster-big {
+  background-image: url("../../img/main-page-big-picture-background@1x.jpg");
+  background-color: #cbdde9;
+  background-position: -450px -45px;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 389px;
+}
+
+.poster-big__text {
+  margin-top: 90px;
+  fill: #fff;
+}

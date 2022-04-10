@@ -1,0 +1,13 @@
+.poster-small {
+  background-image: url("../../img/main-page-big-picture-background@1x.jpg");
+  background-color: #7d9aad;
+  width: 320px;
+  height: 157px;
+  background-position: -385px -305px;
+  background-repeat: no-repeat;
+}
+
+.poster-small__text {
+  margin-top: 61px;
+  fill: #fff;
+}

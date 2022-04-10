@@ -1,0 +1,11 @@
+.menu__item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    background-color: #81B3D2;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #fff;
+}

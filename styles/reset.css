@@ -1,0 +1,32 @@
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* не используется в проекте, просто для примера */
+/* кнопка становится просто текстом */
+button {
+    font-family: inherit; /* бери у родителя */
+    text-transform: inherit; /* бери у родителя */
+    background-color: inherit;
+    line-height: inherit;
+    border: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+p {
+    /* margin: 0; */
+}
