@@ -1,11 +1,29 @@
 .menu__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 18px;
+
     background-color: #81B3D2;
+    height: 56px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .menu__link {
     text-decoration: none;
     color: #fff;
+}
+
+.menu__close-button {
+    position: fixed;
+    right: 17px;
+}
+
+.menu__close-button-icon {
+    fill: #fff;
+    width: 22px;
+    height: 22px;
 }
