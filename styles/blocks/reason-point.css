@@ -2,3 +2,13 @@
     font-size: 18px;
     line-height: 26px;
 }
+
+.reason-point__item-icon {
+    width: 39px;
+    height: 37px;
+    fill: #81B3D2;
+}
+
+.reason-point__item-icon-container {
+
+}
