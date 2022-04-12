@@ -1,5 +1,5 @@
 .poster-big {
-  background-image: url("../../img/main-page-big-picture-background@1x.jpg");
+  background-image: url("../../img/main-page-big-picture-background@1x.jpg"), linear-gradient(#e66465, #9198e5);
   background-color: #cbdde9;
   background-position: -450px -45px;
   background-repeat: no-repeat;

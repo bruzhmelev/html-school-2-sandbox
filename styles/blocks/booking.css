@@ -1,10 +1,16 @@
+.booking {
+    padding: 38px 20px 48px;
+}
+
 .booking__title {
     font-size: 21px;
     line-height: 26px;
+    margin-bottom: 24px;
 }
 
 .booking__description {
     line-height: 24px;
+    margin-bottom: 24px;
 }
 
 .booking__button {

@@ -1,8 +1,24 @@
 .reasons__slogan {
     font-size: 18px;
     line-height: 26px;
+    padding: 32px 20px 14px;
 }
 
 .reasons__lead-text {
     line-height: 26px;
+    padding: 14px 20px 30px;
+}
+
+.reasons__item.reasons__item--light {
+    position: relative;
+}
+
+.reasons__item.reasons__item--light:not(:last-child)::after {
+    content: "";
+    background-color: #D6D6D6;
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    left: 20px;
+    right: 20px;
 }

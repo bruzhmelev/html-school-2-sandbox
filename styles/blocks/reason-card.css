@@ -1,15 +1,12 @@
 .reason-card__image-container {
     background-color: #fff;
     width: 320px;
-    height: 260px;
+    height: 256px; /* уменьшил с 260px, т.к. картинки img/photo-bridge@1x.jpg для desktop нет на 260  */
     overflow: hidden;
 }
 
-.reason-card__image {
-    /* height: 260px; */
-}
-
 .reason-card__description {
+    padding: 26px 20px 24px;
     background-color: #81B3D2;
     color: #fff;
 }
@@ -20,7 +17,12 @@
 }
 
 .reason-card__title {
+    margin-bottom: 14px;
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
+}
+
+.reason-card__text:not(:last-child) {
+    margin-bottom: 14px;
 }
