@@ -29,3 +29,19 @@
     width: 22px;
     height: 22px;
 }
+
+.menu__burger {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+
+.menu__burger-line {
+    width: 23px;
+    height: 4px;
+    background-color: #81B3D2;
+}
+
+.menu__burger-line:not(:last-child) {
+    margin-bottom: 5px;
+}
