@@ -1,3 +1,16 @@
 .developed-by {
-    line-height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    line-height: 14px;
+    margin-top: 40px;
+}
+
+.developed-by__text {
+    display: block;
+    margin-top: 10px;
+}
+
+.developed-by__link {
+    margin-left: 12px;
 }

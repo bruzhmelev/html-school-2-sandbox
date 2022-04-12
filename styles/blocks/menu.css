@@ -1,5 +1,6 @@
 .menu__item {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
 
@@ -18,8 +19,9 @@
 }
 
 .menu__close-button {
-    position: fixed;
+    position: absolute;
     right: 17px;
+    top: 17px;
 }
 
 .menu__close-button-icon {

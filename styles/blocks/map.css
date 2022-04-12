@@ -1,6 +1,26 @@
 .map__image-container {
+    display: flex;
+    position: relative;
     width: 320px;
     height: 350px;
     overflow: hidden;
     background-color: #f4f3ef;
+    justify-content: center;
+    align-items: center;
+}
+
+.map__pin-border {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    background-color: #fff;
+    border-radius: 17px;
+}
+
+.map__pin {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-color: #81B3D3;
+    border-radius: 17px;
 }
