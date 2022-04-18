@@ -26,3 +26,6 @@
 @import "./styles/blocks/review.css";
 @import "./styles/blocks/social-link.css";
 @import "./styles/blocks/social.css";
+
+/* toggles */
+@import "./styles/toggles.css";

@@ -1,4 +1,8 @@
 .header {
+    position: sticky;
+    top: 0px;
     background-color: #ffffff;
-    position: relative;
+    height: 56px;
+    box-shadow: 0 0 1px 0 #ccc; /* чуть красоты от себя */
+    z-index: 99;
 }
