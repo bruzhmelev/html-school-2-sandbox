@@ -1,9 +1,8 @@
 .poster-small {
-  background-image: url("../../img/main-page-big-picture-background@1x.jpg");
-  background-color: #7d9aad;
+  background-image: url("../../img/main-page-big-picture-background@1x.jpg"), linear-gradient(#846969, #394a4c);
   width: 320px;
   height: 157px;
-  background-position: -385px -305px;
+  background-position: center bottom;
   background-repeat: no-repeat;
 }
 

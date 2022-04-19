@@ -1,8 +1,8 @@
 .poster-big {
-  background-image: url("../../img/main-page-big-picture-background@1x.jpg"), linear-gradient(#e66465, #9198e5);
-  background-color: #cbdde9;
-  background-position: -450px -45px;
+  background-image: url("../../img/main-page-big-picture-background@1x.jpg"), linear-gradient(#e2eff7, #47739f);
+  background-position: center top;
   background-repeat: no-repeat;
+  background-size: auto 100%;
   width: 320px;
   height: 389px;
 }
