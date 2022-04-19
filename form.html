@@ -89,6 +89,53 @@
       </p>
       <div class="review__form"></div>
     </section>
+    <form method="post" action="https://echo.htmlacademy.ru">
+      <fieldset>
+        <legend>Представьтесь:</legend>
+        <ul>
+          <li><label><span>ИМЯ*:</span><input type="text" name="firstname" value="Петр" placeholder="Введите имя"
+                required></label></li>
+          <li><label><span>ФАМИЛИЯ*:</span><input type="text" name="lastname" value="Иванов" placeholder="Введите фамилию"
+                required></label></li>
+          <li><label><span>Отчество:</span><input type="text" name="middlename" value="Александрович"
+                placeholder="Введите отчество"></label></li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Контактная информация:</legend>
+        <ul>
+          <li><label><span>Контактный телефон*:</span><input type="tel" name="phone" placeholder="Введите телефон"
+                required></label></li>
+          <li><label><span>Электронная почта*:</span><input type="email" name="email" placeholder="Введите e-mail"
+                required></label></li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>ВАше Общее впечатление:</legend>
+        <ul>
+          <li><label><input type="radio" name="impression" value="positive" checked><span>Скорее
+                положительное</span></label></li>
+          <li><label><input type="radio" name="impression" value="negative"><span>Скорее отрицательное</span></label></li>
+          <li><label><input type="radio" name="impression" value="neutral"><span>Затрудняюсь ответить</span></label></li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>посещенные достопримечательности:</legend>
+        <ul>
+          <li><label><input type="checkbox" name="davilsbridge" value="davilsbridge" checked><span>Мост
+                Дьявола</span></label></li>
+          <li><label><input type="checkbox" name="mountbell" value="mountbell" checked><span>Гора-Колокол</span></label>
+          </li>
+          <li><label><input type="checkbox" name="slidepark" value="slidepark" checked><span>Слайд-парк</span></label></li>
+          <li><label><input type="checkbox" name="redrocks" value="redrocks"><span>Красные скалы</span></label></li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Опишите свои эмоции:</legend>
+        <textarea name="emotions" id="emotions" cols="30" rows="10"
+          placeholder="Опишите подробно все свои восторги "></textarea>
+      </fieldset>
+    </form>
   </main>
   <footer class="footer">
     <strong class="hashtag">#visitSEDONA</strong>
@@ -110,7 +157,7 @@
               <path
                 d="M6.89 3.93H9.2V.53h-2.8c-3 .2-4.17 2.4-3.78 6.11H.79v3.51h1.94v9.32H6.4v-9.32h2.81v-3.5h-2.8c0-1.01 0-2.41.48-2.72Z" />
             </svg>
-            </a>
+          </a>
         </li>
         <li class="social__list-item">
           <a class="social__link social-link" href="" target="_blank">
