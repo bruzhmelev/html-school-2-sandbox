@@ -14,6 +14,7 @@
 @import "./styles/blocks/content.css";
 @import "./styles/blocks/developed-by.css";
 @import "./styles/blocks/footer.css";
+@import "./styles/blocks/form.css";
 @import "./styles/blocks/hashtag.css";
 @import "./styles/blocks/header.css";
 @import "./styles/blocks/logo.css";
@@ -23,6 +24,7 @@
 @import "./styles/blocks/reason-card.css";
 @import "./styles/blocks/reason-point.css";
 @import "./styles/blocks/reasons.css";
+@import "./styles/blocks/review-form.css";
 @import "./styles/blocks/review.css";
 @import "./styles/blocks/social-link.css";
 @import "./styles/blocks/social.css";
