@@ -1,13 +1,27 @@
-.poster-big {
+.poster {
+  background-repeat: no-repeat;
+  width: 320px;
+}
+
+.poster__big {
   background-image: url("../../img/main-page-big-picture-background@1x.jpg"), linear-gradient(#e2eff7, #47739f);
   background-position: center top;
-  background-repeat: no-repeat;
   background-size: auto 100%;
-  width: 320px;
   height: 389px;
 }
 
-.poster-big__text {
+.poster__text {
   margin-top: 90px;
+  fill: #fff;
+}
+
+.poster__small {
+  background-image: url("../../img/main-page-big-picture-background@1x.jpg"), linear-gradient(#846969, #394a4c);
+  height: 157px;
+  background-position: center bottom;
+}
+
+.poster__small .poster__text {
+  margin-top: 51px;
   fill: #fff;
 }
