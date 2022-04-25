@@ -1,3 +1,15 @@
 .review-form__button {
     margin: 0 auto;
 }
+
+.review-form__fieldset-legend {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.review-form__field-label-text {
+    font-size: 14px;
+    line-height: 26px;
+    
+}
