@@ -5,8 +5,12 @@
 
 /* mixins (button, checkbox, radio)*/
 @import "./styles/mixins/button.css";
+@import "./styles/mixins/checkbox.css";
 @import "./styles/mixins/form.css";
 @import "./styles/mixins/h3.css";
+@import "./styles/mixins/radio.css";
+@import "./styles/mixins/textarea.css";
+@import "./styles/mixins/visually-hidden.css";
 
 /* blocks styles */
 @import "./styles/blocks/poster-big.css";

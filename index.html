@@ -7,11 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Sedona | Главная</title>
   <link rel="stylesheet" href="./styles.css" />
+  <script src="./js/script.js" defer></script>
 </head>
 
 <body class="body">
   <header class="header">
-    <a class="logo">
+    <a id="logo" class="logo">
       <svg class="logo-image" width="186" height="97" viewBox="0 0 186 97" fill="none"
         xmlns="http://www.w3.org/2000/svg">
         <title>Логотип City of Sedona</title>
@@ -47,23 +48,17 @@
       </svg>
     </a>
     <nav class="menu">
-      <div class="menu__burger">
-        <div class="menu__burger-line"></div>
-        <div class="menu__burger-line"></div>
-        <div class="menu__burger-line"></div>
-      </div>
-      <ul class="menu__list">
+      <button id="menu__burger" class="menu__burger">
+        <span class="menu__burger-line menu__burger-line--first"></span>
+        <span class="menu__burger-line menu__burger-line--second"></span>
+        <span class="menu__burger-line menu__burger-line--third"></span>
+        Кнопка меню
+      </button>
+      <ul id="menu__list" class="menu__list">
         <li class="menu__item">
           <a class="menu__link">
             <span class="menu__link-text">Главная</span>
           </a>
-          <div class="menu__close-button">
-            <svg class="menu__close-button-icon" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <title>Кнопка закрытия меню</title>
-              <path
-                d="M22 2.775 19.225 0 11 8.225 2.775 0 0 2.775 8.225 11 0 19.225 2.775 22 11 13.775 19.225 22 22 19.225 13.775 11 22 2.775Z" />
-            </svg>
-          </div>
         </li>
         <li class="menu__item">
           <a href="#" class="menu__link">
@@ -84,7 +79,7 @@
     </nav>
   </header>
   <main class="content">
-    <h1 class="page-title--hidden">Sedona | Главная</h1>
+    <h1 class="page-title visually-hidden">Sedona | Главная</h1>
     <div class="poster poster__big">
       <svg class="poster__text" width="280" height="213" fill="none" xmlns="http://www.w3.org/2000/svg">
         <title>
@@ -245,7 +240,7 @@
       <a class="booking__button button" href="#">Найти гостиницу</a>
     </section>
     <section class="map">
-      <h2 class="map__title--hidden">Карта</h2>
+      <h2 class="map__title visually-hidden">Карта</h2>
       <div class="map__image-container">
         <img class="map__image" src="img/map@1x.jpg" alt="Карта местности" />
         <div class="map__pin-border"></div>

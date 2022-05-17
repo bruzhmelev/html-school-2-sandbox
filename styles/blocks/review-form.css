@@ -30,3 +30,56 @@
     border: 0;
     border-bottom: 1px solid #E5E5E5;
 }
+
+.review-form__input-wrapper {
+    display: flex;
+}
+
+.review-form__input-icon {
+    display: flex;
+    flex-shrink: 0;
+    background-color: #E6E6E6;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+}
+
+.custom-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #F2F2F2;
+    border-width: 15px;
+}
+
+.review-form__checkbox:focus + .custom-checkbox {
+    outline: 2px solid #555555;
+}
+
+.custom-checkbox__point {
+    display: none;
+}
+
+.review-form__checkbox:checked + .custom-checkbox .custom-checkbox__point {
+    display: flex;
+}
+
+.custom-radio {
+    display: block;
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    background-color: #333333;
+    border-radius: 50%;
+    border: 18px solid #F2F2F2;
+}
+
+.review-form__radio:focus + .custom-radio {
+    outline: 2px solid #555555;
+}
+
+.review-form__radio:not(:checked) + .custom-radio {
+    background-color: #F2F2F2;
+}
