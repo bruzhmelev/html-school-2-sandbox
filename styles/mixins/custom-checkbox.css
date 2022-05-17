@@ -1,0 +1,22 @@
+.custom-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #F2F2F2;
+    border-width: 15px;
+    margin: 0 22px 0 0;
+}
+
+.checkbox:focus + .custom-checkbox {
+    outline: 2px solid #555555;
+}
+
+.custom-checkbox__point {
+    display: none;
+}
+
+.checkbox:checked + .custom-checkbox .custom-checkbox__point {
+    display: flex;
+}

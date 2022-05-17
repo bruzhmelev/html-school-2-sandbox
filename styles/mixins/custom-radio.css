@@ -1,0 +1,19 @@
+.custom-radio {
+    display: block;
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    background-color: #333333;
+    border-radius: 50%;
+    border: 18px solid #F2F2F2;
+    margin: 0 22px 0 0;
+
+}
+
+.radio:focus + .custom-radio {
+    outline: 2px solid #555555;
+}
+
+.radio:not(:checked) + .custom-radio {
+    background-color: #F2F2F2;
+}

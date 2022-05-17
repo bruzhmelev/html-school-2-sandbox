@@ -6,6 +6,8 @@
 /* mixins (button, checkbox, radio)*/
 @import "./styles/mixins/button.css";
 @import "./styles/mixins/checkbox.css";
+@import "./styles/mixins/custom-checkbox.css";
+@import "./styles/mixins/custom-radio.css";
 @import "./styles/mixins/form.css";
 @import "./styles/mixins/h3.css";
 @import "./styles/mixins/radio.css";
