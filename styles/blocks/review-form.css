@@ -1,3 +1,8 @@
+.review-form {
+    border-top: 1px solid #E5E5E5;
+    padding-bottom: 28px;
+}
+
 .review-form__button {
     margin: 0 auto;
 }
@@ -21,13 +26,61 @@
     align-items: center;
 }
 
+.review-form__field-label--full-width { 
+    flex-direction: column;
+}
+
+.review-form__field-label--full-width .review-form__field-label-text {
+    align-self: flex-start;
+    margin: 0 0 5px 22px;
+}
+
 .review-form__fields-list-item:not(:last-child) {
     margin-bottom: 20px;
+}
+
+.review-form__impression .review-form__fields-list-item {
+    margin-bottom: 14px;
+}
+
+.review-form__impression .review-form__fields-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.review-form__impression .review-form__field-label-text {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+
+.review-form__impression .review-form__field-label-text::first-letter {
+    text-transform: uppercase;
+}
+
+.review-form__visited-places .review-form__fields-list-item {
+    margin-bottom: 24px;
+}
+
+.review-form__visited-places .review-form__fields-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.review-form__visited-places .review-form__field-label-text {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+
+.review-form__visited-places .review-form__field-label-text::first-letter {
+    text-transform: uppercase;
 }
 
 .review-form__fieldset {
     padding: 0 20px 24px;
     border: 0;
+}
+
+.review-form__fieldset:not(:last-of-type) {
     border-bottom: 1px solid #E5E5E5;
 }
 
@@ -52,6 +105,7 @@
     height: 56px;
     background-color: #F2F2F2;
     border-width: 15px;
+    margin: 0 22px 0 0;
 }
 
 .review-form__checkbox:focus + .custom-checkbox {
@@ -74,6 +128,8 @@
     background-color: #333333;
     border-radius: 50%;
     border: 18px solid #F2F2F2;
+    margin: 0 22px 0 0;
+
 }
 
 .review-form__radio:focus + .custom-radio {
@@ -82,4 +138,12 @@
 
 .review-form__radio:not(:checked) + .custom-radio {
     background-color: #F2F2F2;
+}
+
+.review-form__button-container {
+    margin: 24px 20px 16px;
+}
+
+.review-form__button {
+    width: 100%;
 }
