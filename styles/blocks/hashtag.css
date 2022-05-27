@@ -1,6 +1,7 @@
 .hashtag {
     font-size: 21px;
     line-height: 26px;
+    margin-bottom: 32px;
 }
 
 @media (min-width: 768px) {

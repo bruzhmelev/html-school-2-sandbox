@@ -88,6 +88,11 @@
     display: flex;
 }
 
+.review-form__textarea {
+    min-height: 160px;
+    height: 160px;
+}
+
 .review-form__input-icon {
     display: flex;
     flex-shrink: 0;
@@ -98,7 +103,7 @@
 }
 
 .review-form__button-container {
-    margin: 24px 20px 16px;
+    padding: 24px 20px 16px;
 }
 
 .review-form__button {

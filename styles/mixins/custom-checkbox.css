@@ -7,6 +7,7 @@
     background-color: #F2F2F2;
     border-width: 15px;
     margin: 0 22px 0 0;
+    cursor: pointer;
 }
 
 .checkbox:focus + .custom-checkbox {

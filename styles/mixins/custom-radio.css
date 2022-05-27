@@ -7,7 +7,7 @@
     border-radius: 50%;
     border: 18px solid #F2F2F2;
     margin: 0 22px 0 0;
-
+    cursor: pointer;
 }
 
 .radio:focus + .custom-radio {
