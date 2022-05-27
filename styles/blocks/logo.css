@@ -1,3 +1,13 @@
 .logo--hidden {
     display: none;
 }
+
+.logo-border {
+    visibility: hidden;
+}
+
+@media (mid-width: 1200px) {
+    .logo-border {
+        visibility: visible;
+    }
+}

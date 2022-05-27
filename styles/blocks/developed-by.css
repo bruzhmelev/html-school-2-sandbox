@@ -14,3 +14,9 @@
 .developed-by__link {
     margin-left: 12px;
 }
+
+@media (min-width: 768px) {
+    .developed-by {
+        margin: 0;
+    }
+}
