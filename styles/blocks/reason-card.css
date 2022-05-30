@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: #fff;
-    width: 320px;
+    min-width: 320px;
     height: 256px; /* уменьшил с 260px, т.к. картинки img/photo-bridge@1x.jpg для desktop нет на 260  */
     overflow: hidden;
 }

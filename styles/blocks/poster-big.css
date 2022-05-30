@@ -1,6 +1,6 @@
 .poster {
   background-repeat: no-repeat;
-  width: 320px;
+  min-width: 320px;
 }
 
 .poster__big {
@@ -15,6 +15,11 @@
   fill: #fff;
 }
 
+.poster__big .poster__text {
+  width: 280px;
+  height: 213px;
+}
+
 .poster__small {
   background-image: url("../../img/main-page-big-picture-background@1x.jpg"), linear-gradient(#846969, #394a4c);
   height: 157px;
@@ -24,4 +29,18 @@
 .poster__small .poster__text {
   margin-top: 51px;
   fill: #fff;
+  width: 229px;
+  height: 39px;
+}
+
+@media (min-width: 768px) {
+  .poster__big .poster__text {
+    height: 350px;
+    width: 461px;
+    margin-top: 70px;
+  }
+
+  .poster__big {
+    height: 518px;
+  }
 }

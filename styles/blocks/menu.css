@@ -1,4 +1,6 @@
 .menu__list {
+    display: flex;
+    flex-direction: column;
     transform: translateY(-100%);
     position: fixed;
     top: 0;
@@ -67,6 +69,7 @@
 }
 
 .menu__burger {
+    cursor: pointer;
     position: absolute;
     font-size: 0;
     top: 17px;
@@ -144,5 +147,40 @@
   
     to {
         transform: translateY(0%);
+    }
+}
+
+@media (min-width: 768px) {
+    .menu__list {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        transform: translateY(0%);
+    }
+
+    .menu__burger {
+        visibility: hidden;
+    }
+
+    .menu__item {
+        min-width: calc((100vw)/4);
+        background: #FFFFFF;
+        flex-shrink: 0;
+    }
+
+    .menu__item:nth-of-type(2)::after {
+        background-color: red;
+        flex-shrink: 0;
+        content: "";
+        display: block;
+        width: 156px;
+        height: 100%;
+    }
+
+    .menu__link {
+        color: #000000;
+    }
+
+    .menu__link-text {
+        max-width: calc(100vw/4 - 36px);
     }
 }
