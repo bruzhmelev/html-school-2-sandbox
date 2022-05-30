@@ -84,6 +84,10 @@
     border-bottom: 1px solid #E5E5E5;
 }
 
+.review-form__fieldset:last-of-type {
+    margin-bottom: 24px;
+}
+
 .review-form__input-wrapper {
     display: flex;
 }
@@ -103,7 +107,8 @@
 }
 
 .review-form__button-container {
-    padding: 24px 20px 16px;
+    padding: 0 20px 0;
+    margin-bottom: 16px;
 }
 
 .review-form__button {
