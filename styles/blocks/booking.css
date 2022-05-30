@@ -1,5 +1,8 @@
 .booking {
     padding: 38px 20px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .booking__title {
@@ -15,5 +18,4 @@
 
 .booking__button {
     width: 280px;
-    margin: 0 auto;
 }
