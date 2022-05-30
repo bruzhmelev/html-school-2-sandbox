@@ -6,3 +6,9 @@
     box-shadow: 0 0 1px 0 #ccc; /* чуть красоты от себя */
     z-index: 99;
 }
+
+@media (min-width: 768px) {
+    .header {
+        position: static;
+    }
+}

@@ -1,3 +1,10 @@
+.logo {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+}
+
 .logo--hidden {
     display: none;
 }
