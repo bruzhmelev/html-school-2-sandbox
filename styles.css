@@ -15,8 +15,7 @@
 @import "./styles/mixins/visually-hidden.css";
 
 /* blocks styles */
-@import "./styles/blocks/poster-big.css";
-@import "./styles/blocks/poster-small.css";
+@import "./styles/blocks/poster.css";
 @import "./styles/blocks/booking.css";
 @import "./styles/blocks/content.css";
 @import "./styles/blocks/developed-by.css";
