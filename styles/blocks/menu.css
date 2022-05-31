@@ -113,21 +113,15 @@
 .crossed .menu__burger-line--first {
     top: 50%;
     transform: translateY(-50%) rotate(45deg) scaleX(1.16);
-    /* animation-duration: 1s;
-    animation-name: showcross; */
 }
 
 .crossed .menu__burger-line--second {
     display: none;
-    /* animation-duration: 1s;
-    animation-name: showcross; */
 }
 
 .crossed .menu__burger-line--third {
     top: 50%;
     transform: translateY(-50%) rotate(-45deg) scaleX(1.16);
-    /* animation-duration: 1s;
-    animation-name: showcross; */
 }
 
 @keyframes showmenu {
@@ -154,7 +148,6 @@
     .menu__list {
         position: static;
         flex-direction: row;
-        flex-wrap: nowrap;
         transform: translateY(0%);
     }
 
@@ -170,9 +163,9 @@
         font-size: 14px;
         line-height: 16px;
         background: #FFFFFF;
-        flex-shrink: 0;
         width: 20%;
         padding: 0 20px;
+        height: 56px;
     }
 
     .menu__item:nth-of-type(2) {
@@ -180,9 +173,16 @@
     }
 
     .menu__link {
+        /* display: block; */
         color: #000000;
+        height: auto;
+        width: auto;
+        overflow: hidden;
     }
 
     .menu__link-text {
+        display: inline;
+        max-width: auto;
+        margin: 0 0 0 0;
     }
 }

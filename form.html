@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sedona | Форма отзыва</title>
   <link rel="stylesheet" href="./styles.css" />
+  <script src="./js/script.js" defer></script>
 </head>
 
 <body class="body">
@@ -47,7 +48,13 @@
       </svg>
     </a>
     <nav class="menu">
-      <ul class="menu__list">
+      <button id="menu__burger" class="menu__burger">
+        <span class="menu__burger-line menu__burger-line--first"></span>
+        <span class="menu__burger-line menu__burger-line--second"></span>
+        <span class="menu__burger-line menu__burger-line--third"></span>
+        Кнопка меню
+      </button>
+      <ul id="menu__list" class="menu__list">
         <li class="menu__item">
           <a class="menu__link" href="./index.html">
             <span class="menu__link-text">Главная</span>
