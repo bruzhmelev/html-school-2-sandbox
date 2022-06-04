@@ -32,3 +32,26 @@
 .reason-card__text:not(:last-child) {
     margin-bottom: 14px;
 }
+
+@media (min-width: 768px) {  
+    .reason-card__line {
+        display: flex;
+    }
+    
+    .reason-card__line--reverted {
+        flex-direction: row-reverse;
+    }
+
+    .reason-point__list {
+        display: flex;
+    }
+
+    .reason-card__description {
+        padding: 40px 32px;
+    }
+
+    .reason-card__title {
+        font-size: 21px;
+    }
+}
+

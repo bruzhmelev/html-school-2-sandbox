@@ -19,3 +19,10 @@
 .booking__button {
     width: 280px;
 }
+
+@media (min-width: 768px) {
+    .booking__title {
+        font-size: 30px;
+    }
+}
+

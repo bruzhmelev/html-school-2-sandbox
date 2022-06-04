@@ -1,4 +1,5 @@
 .poster {
+  position: relative;
   min-width: 320px;
   min-height: 389px;
   height: 67vw;
@@ -15,6 +16,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.poster__triangle {
+  fill: #fff;
+  width: 1200px;
+  bottom: 0px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  /* transform: translateX(1px); */
 }
 
 .poster__text {

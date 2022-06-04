@@ -31,3 +31,9 @@
 .reason-point__description {
     text-align: start;
 }
+
+@media (min-width: 768px) {
+    .reason-point__title {
+        font-size: 21px;
+    }
+}
