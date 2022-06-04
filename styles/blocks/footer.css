@@ -10,6 +10,6 @@
     .footer { 
         flex-direction: row;
         justify-content: space-between;
-        padding: 36px 60px;
+        padding: 36px calc(0.139 * 100% - 46.7px);
     }
 }

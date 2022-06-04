@@ -48,10 +48,42 @@
 
     .reason-card__description {
         padding: 40px 32px;
+        flex-basis: 256px;
+        flex-grow: 1;
+    }
+
+    .reason-card__image-container {
+        flex-basis: 512px;
+        flex-grow: 2;
     }
 
     .reason-card__title {
         font-size: 21px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .reason-card__title-word {
+        display: block;
+    }
+
+    .reason-card__description--light .reason-card__title {
+        display: block;
+        text-align: center;
+    }
+
+    .reason-card__description--light {
+        padding: 40px 40px 45px;
+        height: 100%;
+    }
+
+    .reason-card__text:not(:last-child) {
+        margin-bottom: 22px;
     }
 }
 
+@media (min-width: 1200px) {
+    .reason-card__description {
+        padding: 48px 52px;
+    }
+}

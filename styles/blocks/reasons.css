@@ -50,8 +50,4 @@
     .reasons__item--light {
         width: calc(100% / 3);
     }
-
-    .reason-card__description--light {
-        height: 100%;
-    }
 }

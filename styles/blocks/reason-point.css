@@ -35,5 +35,33 @@
 @media (min-width: 768px) {
     .reason-point__title {
         font-size: 21px;
+        margin: 0 0 23px 0;
+        text-align: center;
+    }
+
+    .reason-point__details {
+        text-align: center;
+    }
+
+    .reason-point__list {
+        padding: 0;
+    }
+
+    .reason-point__item {
+        padding: 60px 36px 60px;
+    }
+
+    .reason-point__item-icon {
+        width: 72px;
+        height: 69px;
+    }
+
+    .reason-point__container {
+        flex-direction: column;
+    }
+
+    .reason-point__item-icon-container {
+        margin-bottom: 27px;
+        margin-right: 0;
     }
 }
