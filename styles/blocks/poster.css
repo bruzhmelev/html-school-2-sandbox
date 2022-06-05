@@ -27,7 +27,6 @@
   margin-right: auto;
   left: 50%;
   transform: translateX(-50%);
-  /* transform: translateX(1px); */
 }
 
 .poster__text {
@@ -42,15 +41,22 @@
 
 .poster__small {
   background-image: url("../../img/main-page-big-picture-background@1x.jpg"), linear-gradient(#846969, #394a4c);
-  height: 157px;
   background-position: center bottom;
+  min-height: 157px;
+  height: calc(0.3 * 100vw + 62px);
+  max-height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .poster__small .poster__text {
-  margin-top: 51px;
   fill: #fff;
-  width: 229px;
-  height: 39px;
+  min-width: 229px;
+  width: calc(0.507 * 100% + 66.9px);
+  max-width: 456px;
+  min-height: 39px;
+  max-height: 78px;
 }
 
 @media (min-width: 768px) {
