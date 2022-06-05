@@ -114,3 +114,19 @@
 .review-form__button {
     width: 100%;
 }
+
+@media (min-width: 768px) {
+    .review-form {
+        border-top: 0 solid white;
+    }
+
+    .review-form__fieldset:not(:last-of-type) {
+        border-bottom: 0 solid white;
+    }
+
+    .review-form__fieldset-legend {
+        padding-top: 20px;
+        margin-bottom: 20px;
+        font-size: 21px;
+    }
+}
