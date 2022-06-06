@@ -265,4 +265,11 @@
     .review-form__field-label-text-first-word {
         display: none;
     }
+
+    .review-form__visited-places .review-form__fields-list {
+        display: flex;
+        width: 100%;
+        column-gap: 0;
+        justify-content: space-between;
+    }
 }
