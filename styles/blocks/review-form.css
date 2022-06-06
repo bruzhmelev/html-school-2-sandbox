@@ -239,4 +239,30 @@
     .review-form__button-container {
         margin: 0;
     }
+
+    .review-form__contacts .review-form__fields-list {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        column-gap: 85px;
+    }
+
+    .review-form__contacts .review-form__input {
+        min-width: 257px;
+    }
+
+    .review-form__contacts .review-form__field-label {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .review-form__contacts .review-form__field-label-text {
+        white-space: nowrap;
+        display: block;
+        margin: 0 14px 0 0;
+    }
+
+    .review-form__field-label-text-first-word {
+        display: none;
+    }
 }
