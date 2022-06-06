@@ -25,3 +25,10 @@
         margin-bottom: 32px;
     }
 }
+
+@media (min-width: 1200px) {
+    .review {
+        padding-top: 114;
+        padding-bottom: 37px;
+    }
+}

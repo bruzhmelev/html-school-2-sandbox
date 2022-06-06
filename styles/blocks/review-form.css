@@ -213,3 +213,30 @@
         justify-content: space-between;
     }
 }
+
+@media (min-width: 1200px) {
+    .review-form {
+        padding-bottom: 66px;
+    }
+
+    .review-form__fieldset {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .review-form__introduce-yourself {
+        padding-left: 79px;
+    }
+
+    .review-form__footer {
+        padding: 0 120px;
+    }
+
+    .review-form__contacts .review-form__fieldset-legend {
+        margin-bottom: 72px;
+    }
+
+    .review-form__button-container {
+        margin: 0;
+    }
+}
