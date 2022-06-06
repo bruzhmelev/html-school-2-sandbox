@@ -9,17 +9,28 @@
     gap: 6px
 }
 
-.social__list-item {
+.social__link {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40px;
     height: 40px;
-    background-color: #81b3d2;
+    background: #81b3d2;
 }
 
 @media (min-width: 768px) {
     .social {
         margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .social__link:hover:not(:active):not(:disabled) {
+        background: #669EC0;
+    }
+
+    .social__link:active:not(:disabled) {  
+        background: #5496BD;
+        color: rgba(256, 256, 256, 0.3);
     }
 }

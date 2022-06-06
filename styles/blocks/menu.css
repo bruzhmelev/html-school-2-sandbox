@@ -37,6 +37,11 @@
     cursor: pointer;
 }
 
+.menu__link:active:not(:disabled) {
+    background: #5496BD;
+    color: rgba(256, 256, 256, 0.3);
+}
+
 .menu__link-text {
     display: block;
     white-space: nowrap;
@@ -79,6 +84,11 @@
     height: 24px;
 }
 
+.menu__burger:active:not(:disabled) .menu__burger-line {
+    background-color: #81B3D2;
+    opacity: 0.3;
+}
+
 .menu__burger-line {
     position: absolute;
     display: block;
@@ -104,6 +114,10 @@
 .crossed {
     animation-duration: 1s;
     animation-name: showcross;
+}
+
+.menu__burger.crossed:active:not(:disabled) .menu__burger-line {
+    background-color: #a7cadf;
 }
 
 .crossed .menu__burger-line {
@@ -184,5 +198,15 @@
         display: inline;
         max-width: auto;
         margin: 0 0 0 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .menu__link:hover:not(:active) {
+        color: #81B3D2;
+    }
+
+    .menu__link:active {
+        opacity: 0.3;
     }
 }

@@ -19,3 +19,13 @@
         margin: 0;
     }
 }
+
+@media (min-width:1200px) {
+    .developed-by__link:hover:not(:active):not(:disabled) {
+        fill: #81B3D2;
+    }
+
+    .developed-by__link:active:not(:disabled) {
+        fill: rgba(0, 0, 0, 0.3);
+    }
+}
