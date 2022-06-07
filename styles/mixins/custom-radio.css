@@ -18,6 +18,16 @@
     background-color: #F2F2F2;
 }
 
+.custom-radio:active:not(:disabled) {
+    background: rgba(51,51,51,0.3);
+    border: 18px solid #D5D5D5;
+}
+
+.radio:not(:checked) + .custom-radio:active:not(:disabled) {
+    background: #D5D5D5;
+    border: 18px solid #D5D5D5;
+}
+
 @media (min-width: 1200px) {
     .custom-radio:hover:not(:active):not(:disabled) {
         border: 18px solid #E5E5E5;
@@ -25,15 +35,5 @@
 
     .radio:not(:checked) + .custom-radio:hover:not(:active):not(:disabled) {
         background-color: #E5E5E5;
-    }
-
-    .custom-radio:active:not(:disabled) {
-        background: rgba(51,51,51,0.3);
-        border: 18px solid #D5D5D5;
-    }
-
-    .radio:not(:checked) + .custom-radio:active:not(:disabled) {
-        background: #D5D5D5;
-        border: 18px solid #D5D5D5;
     }
 }

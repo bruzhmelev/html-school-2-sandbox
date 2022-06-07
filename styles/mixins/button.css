@@ -10,17 +10,17 @@
     cursor: pointer;
 }
 
+.button:active:not(:disabled) {
+    background: #5496BD;
+    color: rgba(256, 256, 256, 0.3);
+}
+
+.button:disabled {
+    background: #E5E5E5;
+}
+
 @media (min-width: 1200px) {
     .button:hover:not(:active):not(:disabled) {
         background: #669EC0;
-    }
-
-    .button:active:not(:disabled) {
-        background: #5496BD;
-        color: rgba(256, 256, 256, 0.3);
-    }
-
-    .button:disabled {
-        background: #E5E5E5;
     }
 }
