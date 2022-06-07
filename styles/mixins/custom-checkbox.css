@@ -22,3 +22,25 @@
 .checkbox:checked + .custom-checkbox .custom-checkbox__point {
     display: flex;
 }
+
+@media (min-width: 1200px) {
+    .custom-checkbox:hover:not(:active):not(:disabled) {
+        background: #E5E5E5
+    }
+
+    .custom-checkbox:active:not(:disabled) {
+        background: #D5D5D5;
+    }
+
+    .checkbox:checked + .custom-checkbox:active:not(:disabled) {
+        background: #D5D5D5;
+    }
+
+    .checkbox:checked + .custom-checkbox:active:not(:disabled) .custom-checkbox__point {
+        fill: rgba(0, 0, 0, 0.3);
+    }
+
+    .custom-checkbox:active:not(:disabled) .custom-checkbox__point {
+        fill: rgba(0, 0, 0, 0.3);
+    }
+}

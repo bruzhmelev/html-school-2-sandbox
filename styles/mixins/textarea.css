@@ -1,3 +1,7 @@
 .form-textarea {
     resize: vertical;
 }
+
+.form-textarea:focus {
+    outline: 2px solid #555555;
+}
