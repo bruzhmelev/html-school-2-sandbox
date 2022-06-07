@@ -37,6 +37,11 @@
     cursor: pointer;
 }
 
+.menu__link--current {
+    background: #5496BD !important;
+    color: #FFFFFF !important;
+}
+
 .menu__link:active:not(:disabled) {
     background: #5496BD;
     color: rgba(256, 256, 256, 0.3);
@@ -199,14 +204,20 @@
         max-width: auto;
         margin: 0 0 0 0;
     }
-}
 
-@media (min-width: 1200px) {
+    .menu__link--current {
+        color: #766357 !important;
+        background: #FFFFFF !important;
+        opacity: 1 !important;
+    }
+
     .menu__link:hover:not(:active) {
         color: #81B3D2;
     }
 
-    .menu__link:active {
+    .menu__link:active:not(:disabled) {
+        background-color: #FFFFFF;
+        color: #000000;
         opacity: 0.3;
     }
 }
